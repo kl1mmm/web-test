@@ -2,14 +2,16 @@
   <div>
     <MyNav></MyNav>
     <MyMenu></MyMenu>
+    <MyTableInfo></MyTableInfo>
   </div>
 </template>
 
 <script>
 import MyNav from '@/components/UI/MyNav'
 import MyMenu from '@/components/UI/MyMenu'
+import MyTableInfo from "@/components/UI/MyTableInfo";
 export default {
-  components: {MyNav, MyMenu}
+  components: {MyTableInfo, MyNav, MyMenu}
 }
 </script>
 

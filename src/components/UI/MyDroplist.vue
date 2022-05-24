@@ -14,8 +14,11 @@ export default {
 <style scoped>
 .form-select {
   font-size: 14px;
-  width: 23em;
-  margin: 0.5em 1em;
+  height: 48px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
   border-radius: 4px;
+  filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
 }
 </style>
