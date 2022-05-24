@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   background: #D0CBF0;
-  height: 100%;
+  height: 92.6%;
   width: 60px;
 }
 

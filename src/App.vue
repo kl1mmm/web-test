@@ -1,9 +1,12 @@
 <template>
-  <div>
+  <div class="screen">
     <MyNav></MyNav>
     <MyMenu></MyMenu>
     <MyTableInfo></MyTableInfo>
     <MyTableSort></MyTableSort>
+    <div class="footer">
+    <MyRollLine></MyRollLine>
+    </div>
   </div>
 </template>
 
@@ -12,8 +15,9 @@ import MyNav from '@/components/UI/MyNav'
 import MyMenu from '@/components/UI/MyMenu'
 import MyTableInfo from "@/components/UI/MyTableInfo";
 import MyTableSort from "@/components/UI/MyTableSort";
+import MyRollLine from '@/components/UI/MyRollLine';
 export default {
-  components: {MyTableSort, MyTableInfo, MyNav, MyMenu}
+  components: {MyTableSort, MyTableInfo, MyNav, MyMenu, MyRollLine}
 }
 </script>
 
