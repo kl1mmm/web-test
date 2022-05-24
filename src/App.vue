@@ -3,6 +3,7 @@
     <MyNav></MyNav>
     <MyMenu></MyMenu>
     <MyTableInfo></MyTableInfo>
+    <MyTableSort></MyTableSort>
   </div>
 </template>
 
@@ -10,8 +11,9 @@
 import MyNav from '@/components/UI/MyNav'
 import MyMenu from '@/components/UI/MyMenu'
 import MyTableInfo from "@/components/UI/MyTableInfo";
+import MyTableSort from "@/components/UI/MyTableSort";
 export default {
-  components: {MyTableInfo, MyNav, MyMenu}
+  components: {MyTableSort, MyTableInfo, MyNav, MyMenu}
 }
 </script>
 
